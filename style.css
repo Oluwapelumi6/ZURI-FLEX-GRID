@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(0, 0%, 95%);
+}
+
+main{
+    max-width:50%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+header {
+
+    font-size: 20px;
+    display: flex;
+    justify-content: center;   
+}
+
+
+h1{
+   font-size: 30px;
+   font-family: 'Big Shoulders Display', cursive;
+   margin: 30px 0;
+   color: hsl(0, 0%, 95%);
+   
+}
+
+p{
+   color: hsla(0, 0%, 100%, 0.75);
+   font-size: 15px;
+   font-family: 'Lexend Deca', sans-serif;
+   margin-bottom: 70px;
+ 
+}
+
+
+
+
+.first{
+    background-color:hsl(31, 77%, 52%);
+    padding: 40px;
+    border-radius: 10px 0 0 10px;
+   
+   
+ 
+}
+
+.second{
+    background-color:hwb(184 0% 56%);
+    padding: 40px;
+  
+ 
+   
+}
+
+.third{
+    background-color:hsl(179, 100%, 13%);
+    padding: 40px;
+    border-radius: 0 10px 10px 0;
+    
+   
+}
+button{
+    
+        background-color:hsl(0, 0%, 95%);
+        border-radius: 20px;
+        border: 1px solid hsl(0, 0%, 95%);
+        padding: 10px 20px;
+       
+} 
+.first .button:hover{
+   color:hsl(0, 0%, 95%);
+   border:2px solid hsl(0, 0%, 95%);
+   background-color: transparent;  
+   
+}
+
+.second .button:hover{
+    color:hsl(0, 0%, 95%);
+    border:2px solid hsl(0, 0%, 95%);
+    background-color: transparent;  
+    
+ }
+
+ .third .button:hover{
+    color:hsl(0, 0%, 95%);
+    border:2px solid hsl(0, 0%, 95%);
+    background-color: transparent;  
+    
+ }
+
+.first .button{
+    color:hsl(31, 77%, 52%);
+   
+}
+
+.second .button{
+    color:hsl(184, 100%, 22%);
+}
+
+.third .button{
+        color: hsl(179, 100%, 13%);
+}
+
+
+@media screen and (max-width: 375px ) {
+    main{
+        display:flex;
+        flex-direction: column;
+        height: auto;
+        padding: 30px;
+        
+       
+       
+    }
+    .first{
+
+            align-items: center;
+            justify-content: center;
+            padding: 30px;
+            width: 250px;
+            border-radius: 10px 10px 0 0 ;
+        
+    }
+    .second{
+          
+        align-items: center;
+        justify-content: center;
+        padding: 30px;
+        width: 250px;
+    }
+    .third{
+        border-radius: 0 0 10px 10px;
+          
+        align-items: center;
+        justify-content: center;
+        padding: 30px;
+        width: 250px;
+    }
+}
