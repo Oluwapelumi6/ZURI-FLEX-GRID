@@ -57,7 +57,7 @@ main div{
 .item-c{
     grid-area: c;
     background-color:rgb(5, 170, 66);
-    height: 310px;
+    height: 315px;
 }
 .item-d{
     grid-area: d;
